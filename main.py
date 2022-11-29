@@ -18,6 +18,29 @@ def multi_sort(arr, cmp, method="None"):
 
 # must be in-place sort
 def merge_sort(arr,cmp):
+    if len(arr) > 1:
+	mid = len(arr)//2
+	L = arr[:mid]
+	R = arr[mid:]
+	mergeSort(L)
+	mergeSort(R
+	i = j = k = 0
+	while i < len(L) and j < len(R):
+            if cmp(L[i],R[j]) == 1:
+                arr[k] = L[i]
+                i += 1
+            else:
+                arr[k] = R[j]
+                j += 1
+            k += 1
+	while cmp(i,len(L)) == -1:
+            arr[k] = L[i]
+            i += 1
+            k += 1
+	while cmp(j,len(R)) == -1:
+            arr[k] = R[j]
+            j += 1
+            k += 1
     pass
 
 # must be in-place sort
