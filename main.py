@@ -46,9 +46,12 @@ def merge_sort(arr,cmp):
 
 # must be in-place sort
 <<<<<<< HEAD
+<<<<<<< HEAD
 def quick_sort(arr,cmp):
     pass
 =======
+=======
+>>>>>>> d06dc43138c12b1e00ea57f96046557aef1e6d9b
 def quick_sort(arr, cmp):
     if len(arr)<=1: 
         return arr
@@ -75,5 +78,9 @@ def quick_sort(arr, cmp):
 #     elif(a==b):
 #         return 0
 #     else:
+<<<<<<< HEAD
+#         return 1
+>>>>>>> d06dc43138c12b1e00ea57f96046557aef1e6d9b
+=======
 #         return 1
 >>>>>>> d06dc43138c12b1e00ea57f96046557aef1e6d9b
